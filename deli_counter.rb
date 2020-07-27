@@ -31,7 +31,7 @@ end
 
 =======
     puts "The line is currently: #{line_position.join}"
-  end    # makes a string using interpolated line_position.join array
+  end    # makes a string saying who's being served using interpolated line_position.join array
 end
 
 def take_a_number(katz_deli, "#{customer}")
