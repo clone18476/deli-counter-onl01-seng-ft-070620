@@ -3,13 +3,13 @@ def line(array)
   line_position = []
   if array.empty?     #if array is empty put line is empty
     puts "The line is currently empty."
-  else     # else iterate on array by pushing a string containing the array into a string with a a counter ( set to start at 1 because people aren't robots )
+  else     # else iterate on array by pushing a string containing both the array and the counter ( set to start at 1 because people aren't robots ) into a new variable called line_position
     counter = 1
     array.each do |customer|
       line_position.push("#{counter}. #{customer}")  # "1. Spencer, 2. Evan, ect"
       counter += 1
-    end    # ends the do iteration
-<<<<<<< HEAD
+    end    # ends the do iteration by putsing out a string with all of the elements in the array line_position, which are joined with a space, " ", between them 
+<<<<<<< HEAD   # once overwith puts out a string containing the 
     puts "The line is currently: #{line_position.join(" ")}"
   end   #
 end
