@@ -35,10 +35,11 @@ end
 end
 
 def take_a_number(katz_deli, "#{customer}")
+     #this is for if the second argument is an interpolated string
   line_position = []
   if array.empty?
     puts "Welcome, #{cusomer}. You are number #{line_position.join}."
-  else    #
+  else    #it puts this out if the person walking in is the first person
     puts line(array)
   end
 end
