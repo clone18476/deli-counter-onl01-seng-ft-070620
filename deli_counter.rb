@@ -16,8 +16,17 @@ end
 
 def take_a_number(katz_deli, customer)
    
-  katz_deli.push(customer)
-  puts "Welcome, #{customer}. You are number #{katz_deli.index(customer) + 1 } in line."
+#   describe "#take_a_number" do
+#    context "there is nobody in line" do
+#      it "should add a person to the line" do
+#        expect($stdout).to receive(:puts).with("Welcome, Ada. You are number 1 in line.")
+#        take_a_number(katz_deli, "Ada")
+#        expect(katz_deli).to eq(["Ada"])
+#      end
+#    end
+   
+  katz_deli.push(customer)   #
+  puts "Welcome, #{customer}. You are number #{katz_deli.index(customer) + 1 } in line."  #puts appropriate message w/ name and humanized index number of the customer 
 end
 
 
