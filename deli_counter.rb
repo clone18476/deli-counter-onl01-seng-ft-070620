@@ -25,7 +25,7 @@ def now_serving(katz_deli)
   puts "There is nobody waiting to be served!"
   # puts nobody's there katz_deli is empty
   else 
-    puts "Currently serving #{katz_deli.shift}."   # shift removes the first itom from the front of the array
+    puts "Currently serving #{katz_deli.shift}."   # shift removes the first itom from the front of the array, effectively removing a person from the line
   end
 end
 
