@@ -15,7 +15,7 @@ def line(array)
 end
 
 def take_a_number(katz_deli, customer)
-  katz_deli.push(customer)   
+  katz_deli.push(customer)     # adds customer to end of katz_deli array
   puts "Welcome, #{customer}. You are number #{katz_deli.index(customer) + 1 } in line."  #puts appropriate message w/ name and humanized index number of the customer 
 end
 
