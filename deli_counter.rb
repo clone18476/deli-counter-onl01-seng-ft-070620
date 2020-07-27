@@ -1,9 +1,9 @@
 katz_deli = []
 def line(array)
   line_position = []
-  if array.empty?
+  if array.empty?     #if array is empty put line is empty
     puts "The line is currently empty."
-  else
+  else     # else iterate on array by pushing a string containing the array into a string with a a counter ( set to start at 1 because people aren't robots )
     counter = 1
     array.each do |customer|
       line_position.push("#{counter}. #{customer}")  # "1. Spencer, 2. Evan, ect"
