@@ -8,8 +8,8 @@ def line(array)
     array.each do |customer|
       line_position.push("#{counter}. #{customer}")  # "1. Spencer, 2. Evan, ect"
       counter += 1
-    end    # ends the do iteration by putsing out a string with all of the elements in the array line_position, which are joined with a space, " ", between them 
-<<<<<<< HEAD   # once overwith puts out a string containing the 
+    end    # ends the do iteration
+<<<<<<< HEAD   # once overwith puts out a string with all of the elements in the array line_position, which are joined with a space, " ", between them  
     puts "The line is currently: #{line_position.join(" ")}"
   end   #
 end
