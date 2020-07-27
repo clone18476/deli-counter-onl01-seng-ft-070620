@@ -9,9 +9,9 @@ def line(array)
       line_position.push("#{counter}. #{customer}")  # "1. Spencer, 2. Evan, ect"
       counter += 1
     end    # ends the do iteration
-<<<<<<< HEAD   # once overwith puts out a string with all of the elements in the array line_position, which are joined with a space, " ", between them  
+<<<<<<< HEAD 
     puts "The line is currently: #{line_position.join(" ")}"
-  end   #
+  end     # once overwith puts out a string with all of the elements in the array line_position, which are joined with a space, " ", between them  
 end
 
 def take_a_number(katz_deli, customer)
