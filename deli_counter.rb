@@ -6,11 +6,12 @@ def line(array)
   else
     counter = 1
     array.each do |customer|
-      line_position.push("#{counter}. #{customer}")
+      line_position.push("#{counter}. #{customer}")  # "1. Spencer, 2. Evan, ect"
       counter += 1
-    end
+    end    # ends the do iteration
+<<<<<<< HEAD
     puts "The line is currently: #{line_position.join(" ")}"
-  end
+  end   #
 end
 
 def take_a_number(katz_deli, customer)
@@ -27,3 +28,17 @@ def now_serving(katz_deli)
   end
 end
 
+=======
+    puts "The line is currently: #{line_position.join}"
+  end
+end
+
+def take_a_number(katz_deli, "#{customer}")
+  line_position = []
+  if array.empty?
+    puts "Welcome, #{cusomer}. You are number #{line_position.join}."
+  else
+    puts line(array)
+  end
+end
+>>>>>>> ea52312319f058be7c8df40c16f40ae85f8e499d
