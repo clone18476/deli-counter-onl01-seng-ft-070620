@@ -38,7 +38,7 @@ def take_a_number(katz_deli, "#{customer}")
   line_position = []
   if array.empty?
     puts "Welcome, #{cusomer}. You are number #{line_position.join}."
-  else
+  else    #
     puts line(array)
   end
 end
