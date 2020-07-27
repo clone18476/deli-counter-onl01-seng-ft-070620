@@ -24,13 +24,13 @@ def now_serving(katz_deli)
   if katz_deli.empty?
   puts "There is nobody waiting to be served!"
   else 
-    puts "Currently serving #{katz_deli.shift}."
+    puts "Currently serving #{katz_deli.shift}."   # shift calls on the first element in an array
   end
 end
 
 =======
     puts "The line is currently: #{line_position.join}"
-  end
+  end    # makes a string using interpolated line_position.join array
 end
 
 def take_a_number(katz_deli, "#{customer}")
